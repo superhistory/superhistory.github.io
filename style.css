@@ -1,0 +1,81 @@
+/* Dark Background and Organic Font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    background: linear-gradient(135deg, #1B1B2F, #3D3D54, #0B0B18, #2A2A52);
+    color: #FFE066;
+    text-align: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background-color: #282828;
+    color: #FFC300;
+    padding: 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #FF5733;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Navigation Tabs */
+nav {
+    background: #444;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFE066;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #900C3F;
+    color: #FFC300;
+    border-color: #FF5733;
+    transform: scale(1.1);
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: rgba(40, 40, 40, 0.9);
+    color: #FFC300;
+    border: 3px dashed #C70039;
+    box-shadow: 0px 0px 15px rgba(255, 87, 51, 0.5);
+    animation: rotate-colors 5s infinite;
+}
+
+@keyframes rotate-colors {
+    0% { border-color: #C70039; }
+    25% { border-color: #FFC300; }
+    50% { border-color: #FF5733; }
+    75% { border-color: #FF4500; }
+    100% { border-color: #C70039; }
+}
+
+/* Footer */
+footer {
+    background-color: #1B1B1B;
+    color: #FFE066;
+    padding: 10px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
