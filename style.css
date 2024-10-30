@@ -76,3 +76,43 @@ footer {
     font-size: 0.9em;
     text-transform: uppercase;
 }
+
+/* General nav styles */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFE066;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    color: #FFC300;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}   
