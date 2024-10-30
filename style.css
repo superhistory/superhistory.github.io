@@ -1,8 +1,5 @@
-/* Dark Background and Organic Font */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 body {
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: Verdana, sans-serif;
     background: linear-gradient(135deg, #1B1B2F, #3D3D54, #0B0B18, #2A2A52);
     color: #FFE066;
     text-align: center;
