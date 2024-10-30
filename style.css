@@ -59,6 +59,23 @@ footer {
     text-transform: uppercase;
 }
 
+nav {
+    background: #444;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFE066;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
 /* General nav styles */
 nav {
     display: flex;
