@@ -146,13 +146,17 @@ nav {
     margin: 10px 0;
 }
 
-.toc ul li a {
+a {
     text-decoration: none;
     color: #66C2FF;
     font-weight: bold;
 }
 
-.toc ul li a:hover {
+a:hover {
+    color: #FF9933;
+}
+
+a:visited {
     color: #FF9933;
 }
 
@@ -182,14 +186,6 @@ section ul li {
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
-}
-
-a {
-    color: #8CE86F;
-}
-
-a:visited {
-    color: #8CE86F;
 }
 
 nav a {
