@@ -190,3 +190,11 @@ section ul li {
 html {
     scroll-behavior: smooth;
 }
+
+a {
+    color:blue;
+}
+
+a:visited {
+    color:blue;
+}
