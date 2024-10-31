@@ -84,13 +84,6 @@ nav {
     padding: 10px;
 }
 
-nav a {
-    color: #FFE066;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: block; /* Ensure full area is clickable */
-}
-
 /* Dropdown container */
 .dropdown {
     position: relative;
@@ -197,4 +190,11 @@ a {
 
 a:visited {
     color:blue;
+}
+
+nav a {
+    color: #FFE066;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block; /* Ensure full area is clickable */
 }
